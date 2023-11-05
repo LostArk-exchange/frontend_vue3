@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#htmlBody{
+  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Jua', sans-serif;
+}

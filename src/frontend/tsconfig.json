@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "removeComments": true,
+    "allowSyntheticDefaultImports": false,
+    "jsx": "preserve",
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+    },
+    "moduleResolution": "Node"
+  },
+  "include": [
+    "./src/**/*",
+    "./global.d.ts"
+  ]
+}
