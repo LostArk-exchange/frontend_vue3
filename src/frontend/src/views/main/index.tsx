@@ -1,4 +1,4 @@
-import { defineComponent, ref } from 'vue'
+import { defineComponent } from 'vue'
 import useStore from './index.store'
 import { Navbar } from './components/Nav'
 import { Main } from './components/Main'
