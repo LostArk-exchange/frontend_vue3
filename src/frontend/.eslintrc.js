@@ -21,7 +21,7 @@ module.exports = {
     'vue/multi-word-component-names': 'off',
     'no-new-func': 'off',
     'no-redeclare': 'off',
-    'no-use-before-define': 1,
+    'no-use-before-define': 'off',
     'arrow-parens': [2, 'as-needed', { requireForBlockBody: true }],
     'no-useless-constructor': 1,
     '@typescript-eslint/no-use-before-define': 'off',

@@ -4,23 +4,6 @@ import type * as T from './types'
 export default defineStore('main.store', {
   state () {
     return {
-      navData: [{
-        label: '메인',
-        loginRequired: false,
-      }, {
-        label: '영지 제작 효율',
-        loginRequired: false,
-      }, {
-        label: '레이드 보상 정리',
-        loginRequired: false,
-      }, {
-        label: '호감도 계산기',
-        loginRequired: false,
-      }, {
-        label: '달력',
-        loginRequired: false,
-      }] as T.NavData[],
-
       BossData: [{
         name: '발탄(노말)',
         boss: true,

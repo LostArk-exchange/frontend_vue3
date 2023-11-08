@@ -1,9 +1,9 @@
 import 'core-js/stable'
-import './styles/globals.css'
-import { createApp, h } from 'vue'
-import App from './views/app'
-import router from './router'
 import { createPinia } from 'pinia'
+import { createApp, h } from 'vue'
+import router from './router'
+import './styles/globals.css'
+import App from './views/app'
 
 const app = createApp({
   setup () {

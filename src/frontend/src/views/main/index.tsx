@@ -1,9 +1,10 @@
+import Navbar from '@/components/Nav'
+import Page from '@/components/Page'
 import { defineComponent } from 'vue'
-import useStore from './index.store'
-import { Navbar } from './components/Nav'
+import { Boss } from './components/Boss'
 import { Main } from './components/Main'
 import { WisdomProduce } from './components/WisdomProduce'
-import { Boss } from './components/Boss'
+import useStore from './index.store'
 
 export default defineComponent({
   setup () {
@@ -12,14 +13,14 @@ export default defineComponent({
 
     return () => {
       const { currentIdx } = store
-      return (
-        <div class="bg-gray-100 h-screen">
-          <Navbar />
+      return [
+        <Navbar />,
+        <Page>
           <Main class={`hidden ${currentIdx === 0 && block}`} />
           <WisdomProduce class={`hidden ${currentIdx === 1 && block}`} />
           <Boss class={`hidden ${currentIdx === 2 && block}`} />
-        </div>
-      )
+        </Page>,
+      ]
     }
   },
 })

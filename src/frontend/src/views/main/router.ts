@@ -1,6 +1,6 @@
 import { RouteRecordRaw } from 'vue-router'
-import { ROUTE_NAMES } from '../../router/types'
 import Main from '.'
+import { ROUTE_NAMES } from '../../router/types'
 
 export default {
   path: '/main',
