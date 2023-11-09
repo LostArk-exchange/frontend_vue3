@@ -22,7 +22,7 @@ export const Main = defineComponent({
                 }}>
                     <div class="text-center w-full bg-white shadow-2xl shadow-slate-300 rounded-xl p-2 hover:bg-slate-100 active:bg-slate-200 focus:outline-none focus:ring focus:bg-slate-300">
                       <div>
-                        <img src={Assets.gold} alt="" />
+                        <img src={Assets.sling} alt="" />
                       </div>
                       <div class="text-lg">
                         {label}
