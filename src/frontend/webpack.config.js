@@ -45,15 +45,8 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              publicPath: 'assets',
-            },
-          },
-        ],
+        test: /\.(png|svg|jpg|jpeg|webp)$/i,
+        type: 'asset/resource',
       },
     ],
   },

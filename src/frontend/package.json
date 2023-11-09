@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "NODE_ENV=development webpack serve --host=0.0.0.0",
-    "start:prod": "NODE_ENV=production webpack",
+    "start:build": "rm -rf dist && webpack",
+    "deploy": "npm run start:build && firebase deploy --only hosting --project lostarkexchange",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

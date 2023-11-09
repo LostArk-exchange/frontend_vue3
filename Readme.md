@@ -1,4 +1,3 @@
-
 ### 구성
 - tsx + vue3 + sass
 - eslint + prettier
@@ -14,7 +13,11 @@
 ### Development environment
 <img src="https://img.shields.io/badge/visualstudio-007ACC?style=for-the-badge&logo=visualstudio&logoColor=white"> <img src="https://img.shields.io/badge/ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"> <img src="https://img.shields.io/badge/macos-000000?style=for-the-badge&logo=macos&logoColor=white">
 
-# Start
+
+### Project Description
+
+
+## Start
 
 ```bash
 npm install
@@ -22,4 +25,15 @@ npm install
 
 ```bash
 npm run dev
+```
+
+```bash
+npm run build
+```
+
+```bash
+npm run deploy
+
+# requirement
+# - firebase cli login
 ```
